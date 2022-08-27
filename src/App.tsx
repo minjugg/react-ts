@@ -1,10 +1,14 @@
-import React from "react";
-import Parent from "./props/Parent";
+// import GuestList from "./state/GuestList";
+// import EventComponent from "./events/EventComponent";
+// import UserSearch from "./state/UserSearch";
+import UserSearch from "./refs/UserSearch";
 
 function App() {
   return (
     <div className="App">
-      <Parent />
+      {/* <GuestList /> */}
+      {/* <EventComponent /> */}
+      <UserSearch />
     </div>
   );
 }
